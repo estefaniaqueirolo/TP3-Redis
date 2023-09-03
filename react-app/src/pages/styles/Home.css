@@ -1,0 +1,86 @@
+.container-home{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.item-principal button{
+    width: 20%;
+    height: 25px;
+    background-color: #33BBC5;
+    border: 0;
+    box-shadow: 0px 1px 5px #000;
+    border-radius: 10px;
+}
+
+/*ESTILOS CONTAINER AGREGAR COORDENADAS*/
+
+.container-coordenadas{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-coordenadas{
+    text-align: center;
+}
+
+.item-coordenadas h1{
+    color:#000
+}
+
+.item-coordenadas:last-child{
+    background-color: #3D246C;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #000;
+    text-align: center;
+}
+
+.item-coordenadas .container-formulario h3{
+    color:#ECDBBA
+}
+
+.item-coordenadas .container-formulario input{
+    width: 80%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #000;
+}
+
+.item-coordenadas .container-formulario button{
+    width: 50%;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: #33BBC5;
+    border: 0;
+    box-shadow: 0px 1px 5px #000;
+    border-radius: 10px;
+}
+
+
+.container-informacion{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #161616;
+    box-shadow: 0px 1px 5px #000;
+}
+
+.container-informacion .informacion-item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.container-informacion .informacion-item h4{
+    color:#ECDBBA;
+    margin-left: 20px;
+
+}   

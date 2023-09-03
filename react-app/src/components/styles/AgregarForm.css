@@ -1,0 +1,38 @@
+.container-agregarGrupo{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #3D246C;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #000;
+}
+
+.item-grupo h2{
+    color: #fff
+}
+
+.item-grupo input{
+    width: 80%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #000;
+}
+
+button{
+    cursor: pointer;
+}
+
+.item-grupo button{
+    width: 50%;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: #33BBC5;
+    border: 0;
+    box-shadow: 0px 1px 5px #000;
+    border-radius: 10px;
+}

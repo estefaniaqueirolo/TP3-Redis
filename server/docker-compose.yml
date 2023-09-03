@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    command: sh -c "npm install; npm start"
+    ports:
+      - "4040:4040"
+    volumes:
+      - C:\Users\estef\OneDrive\Escritorio\FCYT\TP3-API-redis\server/api:/api   
+    links:
+    - "db:redis"
+
+  db:
+    image: redis
+    ports:
+      - "6379:6379"
+
+
